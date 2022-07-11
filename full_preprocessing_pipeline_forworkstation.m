@@ -31,7 +31,7 @@ parfor z = 1:num_sub   % parfor runs for loop but sends each iteration of loop
 %what/ what participant. First thing displayed on command window is date/
 %time - disp(datestr(now))
     
-    cd 'C:\Users\ugjt015\Documents\CamCAN\Raw_data';
+    cd 'C:...\Raw_data';
     diary_name = strcat(subs{z},'_diary.txt'); 
     diary(diary_name)
     disp(datestr(now))
